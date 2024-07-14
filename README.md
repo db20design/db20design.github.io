@@ -7,3 +7,4 @@ This repo contains the code for the [db20design.github.io](https://db20design.gi
 - [ ] Edit flexbox display to work like Instagram profile
 - [ ] Add Behance profile link
 - [ ] Edit Instagram page link location
+- [ ] Add website icon (svg)
