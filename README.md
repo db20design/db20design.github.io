@@ -8,3 +8,6 @@ This repo contains the code for the [db20design.github.io](https://db20design.gi
 - [ ] Add Behance profile link
 - [ ] Edit Instagram page link location
 - [ ] Add website icon (svg)
+
+## Frameworks and Libraries
+[TailwindCSS](https://tailwindcss.com/)
