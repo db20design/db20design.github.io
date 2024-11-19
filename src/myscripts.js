@@ -20,10 +20,10 @@ function addPosts(links) {
 
             anchor.appendChild(img);
             anchor.appendChild(div);
-            postsContainer.appendChild(anchor);
+            postsContainer.prepend(anchor);
         } else {
             img.classList.add('p-1', 'rounded-md', 'md:rounded-lg', 'lg:rounded-2xl');
-            postsContainer.appendChild(img);
+            postsContainer.prepend(img);
         }
 
     });
