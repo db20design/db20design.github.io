@@ -1,5 +1,5 @@
 function addPosts(links) {
-    const postsContainer = document.getElementById('posts-flexbox');
+    const postsContainer = document.getElementById('posts-grid');
     
     links.forEach((link, index) => {
 
@@ -12,7 +12,7 @@ function addPosts(links) {
             const anchor = document.createElement('a');
             anchor.href = link;
             anchor.target = '_blank';
-            anchor.classList.add('w-1/3', 'relative', 'inline-block', 'transition', 'hover:brightness-75');
+            anchor.classList.add('relative', 'inline-block', 'transition', 'hover:brightness-75');
 
             const div = document.createElement('div');
             div.classList.add('absolute', 'h-11', 'w-11', 'bg-black', 'bottom-4', 'left-4', 'z-9', 'rounded-full', 'flex', 'justify-center', 'items-center', 'opacity-85');
@@ -22,7 +22,7 @@ function addPosts(links) {
             anchor.appendChild(div);
             postsContainer.appendChild(anchor);
         } else {
-            img.classList.add('w-1/3', 'p-1', 'rounded-md', 'md:rounded-lg', 'lg:rounded-2xl');
+            img.classList.add('p-1', 'rounded-md', 'md:rounded-lg', 'lg:rounded-2xl');
             postsContainer.appendChild(img);
         }
 
@@ -31,8 +31,9 @@ function addPosts(links) {
 
 const liksArray = [
     "", //Post 1
-    "", //Post 2
-    "https://www.behance.net/gallery/190976995/Redesign-Stemma-del-Comune-di-Ravanusa-Team-Project"
+    "https://www.behance.net/gallery/212081289/Claudio-Bellanti-Logo-Design-and-Brand-Identity",
+    "https://www.behance.net/gallery/190976995/Redesign-Stemma-del-Comune-di-Ravanusa-Team-Project",
+    "" //Post 4
 ];
 
 addPosts(liksArray);
